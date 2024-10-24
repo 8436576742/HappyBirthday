@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ff5252;
+    color: #ff0000;
+}
+
+h1, h2,{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    text-align: center;
+    padding: 100px 100px;
+}
+
+#landing {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/038/904/822/non_2x/ai-generated-elegant-black-balloon-and-ribbon-happy-birthday-celebration-card-banner-template-background-photo.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#landing h1 {
+    font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  color: red; 
+  animation: blinkRGB 2s infinite; 
+  text-align: center;
+}
+
+@keyframes blinkRGB {
+  0% {
+    color: red;
+  }
+  33% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+#landing h2 {
+  font-size: 2rem;
+text-align: center;
+text-align: center;
+}
+
+#landing p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+
+
+#gallery {
+    background-color: #000000;
+    padding: 50px 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+
+#messages {
+    background-image:url(https://www.shutterstock.com/shutterstock/videos/3435097227/thumb/7.jpg?ip=x480);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#messages p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff700;
+    text-shadow: 
+    0 0 10px rgba(255, 0, 0, 0.8),   /* Red glow */
+    0 0 20px rgba(0, 255, 0, 0.8),   /* Green glow */
+    0 0 30px rgba(0, 0, 255, 0.8);   /* Blue glow */
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+    background-image:url(https://thumbs.dreamstime.com/b/colorful-happy-birthday-cupcakes-candles-spelling-148323072.jpg);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    text-shadow: 
+    0 0 10px rgba(255, 255, 255, 0.8),   /* Red glow */
+    0 0 20px rgba(255, 0, 0, 0.8),   /* Green glow */
+    0 0 30px rgb(255, 242, 0);   /* Blue glow */
+  font-weight: bold;
+}
